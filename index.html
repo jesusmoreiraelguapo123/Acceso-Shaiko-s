@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Acceso a la demo Shaiko's Adventure</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <link rel="icon" type="image/png" href="imagenes/marmotita.png">
+    </head>
+    <body>
+        <audio src="musicrelax.mp3" loop="3" autoplay="true"></audio>
+        <div class="form">
+            <form action="guardar.php" method="POST">
+                <p>Nombre y Apellido</p>
+                <label for="nombre">Su datos Personales</label>
+                <br>
+                <input type="text" name="nombre" placeholder="Nombre y Apellido" required>
+                <p>Correo</p>
+                <label for="correo">Direccion De Correo</label>
+                <br>
+                <input type="email" name="correo" placeholder="alguien@hotmail.com" required>
+                <p>Comentario</p>
+                <label for="mensaje">Su Comentario</label>
+                <br>
+                <textarea name="mensaje" placeholder="Hola" required></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </body>
+</html>
